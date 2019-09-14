@@ -3,7 +3,7 @@
 #eerst wordt gevraagd van welk bestand je het gc% en het aantal nucleotiden wilt weten
 bestand = input("Van welk bestand je het gc% en het aantal nucleotiden weten? ")  
 
-#dit is een functie, genaamd fasta om het fasta bestand te kunnen lezen en de benodigde gegevens eruit te halen
+#dit is een functie genaamd fasta om het fasta bestand te kunnen lezen en de benodigde gegevens eruit te halen
 def fasta (lines):
     #er wordt een variabele aangemaakt, waarin straks de sequentie wordt opgeslagen
     sequentie = ""
